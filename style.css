@@ -1,0 +1,101 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: silver;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header .logo{
+    display: flex;
+    gap: 2rem;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(33, 33, 33);
+    text-decoration: underline;
+}
+header img{
+    width: 3rem;
+    height: 3rem;
+}
+main{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: calc(100vh - 85px - 85px);
+    align-items: center;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 550px;
+
+}
+article p{
+    padding: 6px;
+}
+article h2{
+    text-align: center;
+}
+article img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 350px;
+    height: 280px;
+}
+footer{
+    background-color: rgb(229, 229, 229);
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redirect{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 135px;
+    height: 35px;
+    background-color: rgb(37, 110, 219);
+    color: rgb(247, 247, 247);
+    
+}
+.art-btn-area{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
